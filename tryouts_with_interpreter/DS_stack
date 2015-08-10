@@ -1,0 +1,14 @@
+>>> #Stacks
+... 
+>>> #The list methods make it very easy to use it as a stack. Stack is LIFO concept so for last in we can use append() and for first element OUT we can use pop()
+... 
+>>> 
+>>> stack = [3,4,5]
+>>> stack.append(6)
+>>> stack
+[3, 4, 5, 6]
+>>> stack.pop()
+6
+>>> stack
+[3, 4, 5]
+>>> 

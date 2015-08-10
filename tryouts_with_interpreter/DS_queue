@@ -1,0 +1,17 @@
+>>> #Queues
+... 
+>>> # It is possible for a list to operated as queue but its not efficient for this purpose.
+>>> # While appends and pops from the end of list are fast, doing inserts or pops from beginning of a list is slow because all elements have to be shifted by one
+>>> 
+>>> # to implement queue , use collections.deque
+>>> from collections import deque
+>>> queue = deque(["Arun","Kumar","Elen"])
+>>> queue.append("Terry")
+>>> queue.append("Perry")
+>>> queue
+deque(['Arun', 'Kumar', 'Elen', 'Terry', 'Perry'])
+>>> queue.popleft()
+'Arun'
+>>> queue
+deque(['Kumar', 'Elen', 'Terry', 'Perry'])
+>>> 
