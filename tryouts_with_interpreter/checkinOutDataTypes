@@ -107,4 +107,51 @@ Usage:thingy
 -h host
 -H HostName
 
->>>
+>>> 3 * 'un' + 'ium'
+'unununium'
+>>> 'py' 'thon'
+'python'
+>>> text = ('string 1 is  ' )
+>>> text = ('string 1 is   '
+... 'string 2 is ')
+>>> 
+>>> print(text)
+string 1 is   string 2 is 
+>>> 
+>>> 
+>>> 
+>>> word = 'python'
+>>> word[0]
+'p'
+>>> word[-1]
+'n'
+>>> word[5]
+'n'
+>>> 
+>>> 
+>>> 
+>>> 
+>>> word[-6]
+'p'
+>>> word[:2] + word[2:]
+'python'
+>>> word[:2]
+'py'
+>>> word[2:]
+'thon'
+>>> word[-2:]
+'on'
+>>> 
+>>> 
+>>> word[4:42]
+'on'
+>>> word[42:]
+''
+>>> 
+>>> 'J' + word[1:]
+'Jython'
+>>> 
+>>> 
+>>> len(word)
+6
+
