@@ -1,0 +1,110 @@
+Python 3.4.3 (v3.4.3:9b73f1c3e601, Feb 23 2015, 02:52:03) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 2 + 2
+4
+>>> 50 - 5 * 6
+20
+>>> 50 - 5 * 6 / 4
+42.5
+>>> (50 - 5 * 6) / 4
+5.0
+>>> 8/2
+4.0
+>>> 
+>>> 
+>>> 8//2
+4
+>>> 
+>>> 2*3 + 1
+7
+>>> 5**2
+25
+>>> 2**7
+128
+>>> width = 20
+>>> height = 5 * 9
+>>> width
+20
+>>> height
+45
+>>> width * height
+900
+>>> n
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'n' is not defined
+>>> 
+>>> 
+>>> tax = 12.5 / 100
+>>> tax
+0.125
+>>> price = 100.50
+>>> 
+>>> 
+>>> price * tax
+12.5625
+>>> price + _
+113.0625
+>>> 
+>>> 
+>>> 
+>>> 0 + _
+113.0625
+>>> 
+>>> 
+>>> 
+>>> price * tax
+12.5625
+>>> round(_, 1)
+12.6
+>>> round(_, 0)
+13.0
+>>> 'spam eggs'
+'spam eggs'
+>>> 'doesn\'t'
+"doesn't"
+>>> "doesn't"
+"doesn't"
+>>> '"yes," he said.'
+'"yes," he said.'
+>>> '"yes, he said."'
+'"yes, he said."'
+>>> 
+>>> 
+>>> 
+>>> 
+>>> print('c:\some\name')
+c:\some
+ame
+>>> print(r'c:\some\name')
+c:\some\name
+>>> print("""\
+... Usage: thingy [OPTIONS]
+...      -h                        Display this usage message
+...      -H hostname               Hostname to connect to
+... """)
+Usage: thingy [OPTIONS]
+     -h                        Display this usage message
+     -H hostname               Hostname to connect to
+
+>>> print("""\
+... Usage:thingy
+... -h host
+... -H HostName
+... """)
+Usage:thingy
+-h host
+-H HostName
+
+>>> print("""
+... Usage:thingy
+... -h host
+... -H HostName
+... """)
+
+Usage:thingy
+-h host
+-H HostName
+
+>>>
